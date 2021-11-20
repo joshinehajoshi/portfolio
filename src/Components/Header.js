@@ -27,6 +27,9 @@ function Header() {
       <i class="fa fa-facebook-official" aria-hidden="true"></i>
       </Nav.Link>
       <Nav.Link href="https://www.instagram.com/ne_joshi/?fbclid=IwAR0hCAvLx8qkd3YZtncJRjHRbSK1gvwfk4jN3UvkNH5XKg549_lL5DYSvSo" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></Nav.Link>
+      <Nav.Link href="https://github.com/joshinehajoshi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+      </Nav.Link>
+      <Nav.Link href="https://thenehajoshi.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
