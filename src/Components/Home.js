@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/home.css';
 import { Nav, Container } from 'react-bootstrap';
 
 function Home() {
@@ -8,16 +9,10 @@ function Home() {
             <Nav variant="tabs" defaultActiveKey="/home">
               
                 <Nav.Item>
-                    <Nav.Link href="/home">Projects</Nav.Link>
+                    <Nav.Link className="active" href="/home">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/art">Art</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/kkk">Active3</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+                    <Nav.Link className="active" href="/art">Art</Nav.Link>
                 </Nav.Item>
                
             </Nav>

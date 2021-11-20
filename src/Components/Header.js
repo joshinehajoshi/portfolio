@@ -22,11 +22,11 @@ function Header() {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets"><i class="fa fa-linkedin-square" aria-hidden="true"></i></Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
+      <Nav.Link href="https://www.linkedin.com/in/neha-joshi-03b61b117/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></Nav.Link>
+      <Nav.Link eventKey={2} href="https://www.facebook.com/nehajoshigkp/" target="_blank">
       <i class="fa fa-facebook-official" aria-hidden="true"></i>
       </Nav.Link>
-      <Nav.Link href="#deets1"><i class="fa fa-instagram" aria-hidden="true"></i></Nav.Link>
+      <Nav.Link href="https://www.instagram.com/ne_joshi/?fbclid=IwAR0hCAvLx8qkd3YZtncJRjHRbSK1gvwfk4jN3UvkNH5XKg549_lL5DYSvSo" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
