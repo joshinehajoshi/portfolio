@@ -10,8 +10,8 @@ function Header() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Resume</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
+      <Nav.Link href="/resume">Resume</Nav.Link>
+      <Nav.Link href="/comtact">Contact</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -21,10 +21,11 @@ function Header() {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link href="#deets"><i class="fa fa-linkedin-square" aria-hidden="true"></i></Nav.Link>
       <Nav.Link eventKey={2} href="#memes">
-        Dank memes
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
       </Nav.Link>
+      <Nav.Link href="#deets1"><i class="fa fa-instagram" aria-hidden="true"></i></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
